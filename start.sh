@@ -1,0 +1,1 @@
+docker run -it -v /Users/danielmiranda/dev/machine-learning/docker-container/src:/src ml-practice:v1
