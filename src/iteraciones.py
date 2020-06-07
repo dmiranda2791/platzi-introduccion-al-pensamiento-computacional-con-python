@@ -37,3 +37,8 @@ print('\n')
 for item in paises.items():
   (pais, capital) = item
   print(f'La capital de {pais} es {capital}')
+
+'Paraguay' in paises
+
+# Dict comprehensions
+{key: value for (key, value) in paises.items()}
