@@ -1,1 +1,1 @@
-docker run -it -v /Users/danielmiranda/dev/machine-learning/docker-container/src:/src ml-practice:v1
+docker run -it -v $(pwd)/src:/src ml-practice:v1
