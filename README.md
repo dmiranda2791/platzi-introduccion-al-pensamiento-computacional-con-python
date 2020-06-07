@@ -28,7 +28,7 @@ chmod 700 start.sh
 ./start.sh
 ```
 
-Al ejecutar el script se abrirá la terminar del container de forma interactiva, desde aquí se pueden ejecutar los scripts de la siguiente forma.
+Al ejecutar el script se abrirá la terminal del container de forma interactiva. Desde aquí se pueden ejecutar los scripts de la siguiente forma.
 
 ```
 python src/busqueda_binaria.py
