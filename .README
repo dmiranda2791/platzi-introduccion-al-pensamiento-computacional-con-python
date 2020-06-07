@@ -1,5 +1,0 @@
-chmod 700 start.sh
-
-./start.sh
-
-cd src/
