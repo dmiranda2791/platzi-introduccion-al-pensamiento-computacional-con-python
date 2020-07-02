@@ -33,3 +33,9 @@ Al ejecutar el script se abrirá la terminal del container de forma interactiva.
 ```
 python src/busqueda_binaria.py
 ```
+
+python -m venv env
+source env/bin/activate
+pip install bokeh
+pip freeze
+deactivate
