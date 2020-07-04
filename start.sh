@@ -1,1 +1,1 @@
-docker run -it -v $(pwd)/src:/src ml-practice
+docker run --rm -it -v $(pwd)/src:/src ml-practice

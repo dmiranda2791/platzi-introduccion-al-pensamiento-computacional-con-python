@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt install software-properties-common -y
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get install python3.7 -y
-RUN apt-get install python3-venv
+RUN apt-get install python3-venv -y
 RUN apt-get install python3-distutils -y
 RUN echo 'alias python=python3' >> ~/.bashrc
 RUN mkdir src
